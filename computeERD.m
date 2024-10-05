@@ -63,23 +63,6 @@ for iChan = 1:size(chanPower,1)
 end 
 
 
- 
-% calculate ERD
-% loop over channels
-% % chanPowerT = mean(chanPower_vals,4);
-% % 
-% % for iTrl = 1:size(chanPowerT,3)
-% %     for iChan = 1:size(chanPowerT,1)
-% %         % calculating avg power in baseline period (reference period, R)
-% %         baseline_avg = mean(chanPowerT(iChan, baseidx_start:baseidx_end, iTrl));
-% %         % calculating ERD% = ((A-R)/R)*100
-% %         erdT(iChan,:, iTrl) = ((chanPowerT(iChan,:,iTrl)-baseline_avg)/baseline_avg)*100;
-% %     end 
-% % end 
-% % 
-% % 
-% % figure;
-% % subplot(2,1,1)
-% % plot(erd')
-% % subplot(2,1,2)
-% % plot(mean(erdT,3)')
+
+
+
